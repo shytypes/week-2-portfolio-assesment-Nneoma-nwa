@@ -38,7 +38,23 @@
       <!-- Contact -->
       <section id="contact">
         <h2>Contact</h2>
-        <p>You can reach me at: <a href="mailto:nneomanwakaudu@gmail.com">nneomanwakaudu@gmail.com</a></p>
+        <form id="contact-form">
+          <label for="first-name">First Name:</label><br />
+          <input type="text" id="first-name" name="first-name" required /><br /><br />
+      
+          <label for="second-name">Second Name:</label><br />
+          <input type="text" id="second-name" name="second-name" required /><br /><br />
+      
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+      
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" required></textarea><br /><br />
+      
+          <button type="submit">Send</button>
+        </form>
+      
+        <div id="submitted-data" style="margin-top: 2rem;"></div>
       </section>
     </main>
   </body>
@@ -46,5 +62,6 @@
       
 
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
