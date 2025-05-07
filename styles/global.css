@@ -4,7 +4,78 @@
   padding: 0px;
 }
 
-/*title text style*/
-/* the font-family 'JetBrains Mono', has been linked
- * and is available for your use
- * */
+
+/* Apply base font and background */
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #121212; /* deep dark background */
+  color: #e0e0e0; /* light text */
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+/* Main title */
+h1 {
+  color: #00bcd4;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Section headers */
+h2 {
+  color: #00bcd4;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Section layout */
+section {
+  margin-bottom: 2.5rem;
+  padding: 1rem;
+  background-color: #1e1e1e; /* slightly lighter than body */
+  border-left: 4px solid #00bcd4;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #e0e0e0;
+}
+
+/* Links */
+a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #00bcd4;
+  color: #121212;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #0097a7;
+}
