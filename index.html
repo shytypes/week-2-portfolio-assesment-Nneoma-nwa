@@ -22,6 +22,48 @@
     <!-- Main Area -->
     <main>
       <h1>My Amazing Portfolio</h1>
+      <img src="assets/images/Nneoma.jpg" alt="Photo of Nneoma" width="200" />
+      <!-- About Me -->
+      <section id="about">
+        <h1>About Me</h1>
+        <p>Hello! I'm a passionate aspiring developer, starting my journey into the world of code. This portfolio showcases what I'm learning and building as I grow.</p>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <p>HTML, CSS</p>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2>Contact</h2>
+
+        <form id="contactForm">
+          <label for="firstName">First Name:</label><br />
+          <input type="text" id="firstName" name="firstName" /><br /><br />
+
+          <label for="secondName">Second Name:</label><br />
+          <input type="text" id="secondName" name="secondName" /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4"></textarea><br /><br />
+
+          <button type="submit">Submit</button>
+        </form>
+
+        <!-- Where results are displayed -->
+        <div id="submissionResult" class="hidden">
+          <div id="displayData"></div>
+          <br />
+        </div>
+      </section>
     </main>
+
+    <!-- JS Script -->
+    <script src="script.js"></script>
   </body>
 </html>
