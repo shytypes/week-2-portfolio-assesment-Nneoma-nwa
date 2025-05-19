@@ -38,30 +38,32 @@
       <!-- Contact -->
       <section id="contact">
         <h2>Contact</h2>
-        <form id="contact-form">
-          <label for="first-name">First Name:</label><br />
-          <input type="text" id="first-name" name="first-name" required /><br /><br />
-      
-          <label for="second-name">Second Name:</label><br />
-          <input type="text" id="second-name" name="second-name" required /><br /><br />
-      
+
+        <form id="contactForm">
+          <label for="firstName">First Name:</label><br />
+          <input type="text" id="firstName" name="firstName" /><br /><br />
+
+          <label for="secondName">Second Name:</label><br />
+          <input type="text" id="secondName" name="secondName" /><br /><br />
+
           <label for="email">Email:</label><br />
-          <input type="email" id="email" name="email" required /><br /><br />
-      
+          <input type="email" id="email" name="email" /><br /><br />
+
           <label for="message">Message:</label><br />
-          <textarea id="message" name="message" rows="4" required></textarea><br /><br />
-      
-          <button type="submit">Send</button>
+          <textarea id="message" name="message" rows="4"></textarea><br /><br />
+
+          <button type="submit">Submit</button>
         </form>
-      
-        <div id="submitted-data" style="margin-top: 2rem;"></div>
+
+        <!-- Where results are displayed -->
+        <div id="submissionResult" class="hidden">
+          <div id="displayData"></div>
+          <br />
+        </div>
       </section>
     </main>
-  </body>
-</html>
-      
 
-    </main>
+    <!-- JS Script -->
     <script src="script.js"></script>
   </body>
 </html>
